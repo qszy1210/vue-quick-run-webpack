@@ -1,0 +1,42 @@
+{
+  "name": "vue-quick-run-webpack",
+  "version": "1.0.0",
+  "description": "vue-quick-run-with-webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "2.13.2",
+    "vue": "2.6.10",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "chokidar": "^3.4.3",
+    "copy-webpack-plugin": "^6.2.1",
+    "cp-cli": "^1.0.2",
+    "css-loader": "^2.1.0",
+    "file-loader": "^1.1.11",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^4.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "postcss-loader": "^4.0.4",
+    "resolve-url-loader": "^3.1.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.9.4",
+    "vue-template-compiler": "2.6.10",
+    "vue-template-es2015-compiler": "^1.6.0",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.11",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
