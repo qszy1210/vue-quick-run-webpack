@@ -4,7 +4,9 @@
   "description": "vue-quick-run-with-webpack",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.js"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.js",
+    "prepublish": "npm run build",
+    "release": "npm version patch -m \"Upgrade to %s\" && cnpm publish"
   },
   "keywords": [],
   "author": "",
